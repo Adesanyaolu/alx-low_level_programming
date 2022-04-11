@@ -2,11 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Main-print a random number and state weather
- * it positive, negative, or zero.
+ *main - entry point
+ * Description - print a random number and state weather
+ *	it positive, negative, or zero.
  *
  *Return: Always 0.
- */
+*/
 int main(void)
 {
 int n;
