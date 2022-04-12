@@ -5,7 +5,7 @@
  * Description: Prints all single digits numbers of base 10
  * starting from 0, followed by a new line.
  *
- * Retunr: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
