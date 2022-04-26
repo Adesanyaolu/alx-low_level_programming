@@ -1,0 +1,1 @@
+Task 7 on more pointers and arrays. Exercises solutions are contained here.
