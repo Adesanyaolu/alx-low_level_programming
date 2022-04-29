@@ -5,17 +5,28 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
-   int n;
-   int *p;
 
-   n = 98;
-   p = &n;
-   printf("Value of 'n': %d\n", n);
-   printf("Address of 'n': %p\n", (void *)&n);
-   printf("Value of 'p': %p\n", (void *)p);
-   *p = 402;
-   printf("Value of 'n': %d\n", n);
-   return (0);
+unsigned int sumNum (unsigned int n){
+    if (n == 0){
+        return 0;
+    }
+    return (n % 10 + (sumNum(n / 10)));
 }
+
+int print (int nb){
+    nb ++;
+    if (nb < 10){
+        print (nb);
+    }
+    
+}
+
+
+unsigned int main(void)
+{
+    unsigned int n;
+ printf ("%d \n", sumNum(451));  
+
+ printf ("%d \n", print(4));
+}
+
