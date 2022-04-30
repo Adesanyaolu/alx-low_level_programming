@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * main - print recursion
@@ -6,11 +7,8 @@
  * Return: Always 0.
  */
 
-void _puts_recursion(char *s){
-    printf ("Puts with recursion \n");
-}
 int main(void)
 {
-    
+    _puts_recursion("Puts with recursion");
     return (0);
 }
