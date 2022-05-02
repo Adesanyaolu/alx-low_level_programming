@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-/*
+
+/**
  * main - a program that print its name
- * followed by a new line
- * return 0
+ * @argc: size of argv array
+ * @argv: pointer to arrays contained in argc
+ *
+ * Return 0(success)
  */
-
-#include <stdio.h>
-
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", *argv);
+	printf("%s\n", argv[0]);
 	return (0);
 }
