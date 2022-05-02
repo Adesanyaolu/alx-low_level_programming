@@ -1,0 +1,1 @@
+Repo on argument count (argc) and argument variable (argv) in C language 
