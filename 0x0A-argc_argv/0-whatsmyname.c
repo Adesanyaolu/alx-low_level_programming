@@ -6,7 +6,7 @@
  * @argc: size of argv array
  * @argv: pointer to arrays contained in argc
  *
- * Return 0(success)
+ * Return: 0(success)
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
