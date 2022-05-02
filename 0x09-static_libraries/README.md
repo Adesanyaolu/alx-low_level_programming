@@ -1,0 +1,1 @@
+Repo on creating and using Static and dynamic libraries.
