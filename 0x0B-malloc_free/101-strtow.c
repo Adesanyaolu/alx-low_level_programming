@@ -3,6 +3,7 @@
 
 /**
  * strtow - splits a string into words
+ * count_word - helper function to count the number of words in a string
  * rd - helper function to count the number of words in a string
  * @s: string to evaluate
  *
