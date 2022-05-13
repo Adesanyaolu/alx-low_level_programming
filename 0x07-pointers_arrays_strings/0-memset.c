@@ -1,32 +1,17 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - derefencing pointers
- *
- * Return: Always 0.
- */
-
-unsigned int sumNum (unsigned int n){
-    if (n == 0){
-        return 0;
-    }
-    return (n % 10 + (sumNum(n / 10)));
-}
-
-int print (int nb){
-    nb ++;
-    if (nb < 10){
-        print (nb);
-    }
-    
-}
-
-
-unsigned int main(void)
+* _memset - entry point
+* Description: sets the memory of the bytes.
+* @b: n-val.
+* @s: f-byte.
+* @n: c-bytes.
+* Return: Pointer s.
+*/
+char *_memset(char *s, char b, unsigned int n)
 {
-    unsigned int n;
- printf ("%d \n", sumNum(451));  
+	unsigned int mem;
 
- printf ("%d \n", print(4));
+	for (mem = 1; mem <= n; mem++)
+		*(s + (mem - 1)) = b;
+	return (s);
 }
-
