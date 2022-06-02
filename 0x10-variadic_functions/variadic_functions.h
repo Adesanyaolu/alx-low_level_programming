@@ -1,4 +1,4 @@
-fndef variadic_functions_h
+#ifndef variadic_functions_h
 
 #define variadic_functions_h
 
